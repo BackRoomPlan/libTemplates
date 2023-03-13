@@ -1618,7 +1618,7 @@ public:
 
 		std::string text ;
 
-		do
+		while(child != nullptr)
 		{
 			text = child->Value();
 			if(text == XML_STRING_PRIVATE XML_STRING_ID)
@@ -1636,11 +1636,7 @@ public:
 			}
 
 			child = child->NextSiblingElement();
-
-			if(child == nullptr) {
-				break;
-			}
-		}while(child != nullptr);
+		}
 
 	}
 
