@@ -32,6 +32,7 @@
  * POSSIBILITY OF SUCH DAMAGE. 
  */
 
+#ifndef __MANAGER
 #define __MANAGER
 
 #include <Node.h>
